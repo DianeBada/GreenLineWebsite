@@ -260,7 +260,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             // Get the select element
-            var selectService = document.getElementById("service");
+            var selectService = document.querySelector("select[name='service']");
     
             // Add an event listener to the form submission
             var form = document.querySelector("form");
@@ -273,6 +273,7 @@
             });
         });
     </script>
+    
 </body>
 
 </html>
