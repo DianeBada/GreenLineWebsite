@@ -83,6 +83,10 @@
     transition: .5s;
 }
 
+#quote-nav{
+display: none;
+}
+
 .navbar .navbar-brand,
 .navbar a.btn {
     height: 75px;
@@ -116,6 +120,9 @@
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
         padding: 10px 0;
+    }
+    #quote-nav{
+        display: block;
     }
 
     .navbar .navbar-nav {
