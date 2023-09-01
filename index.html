@@ -83,22 +83,18 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Feature</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="feature.html" class="dropdown-item">Solar Panels</a>
+                        <a href="quote.html" class="dropdown-item">Generators</a>
+                        <a href="team.html" class="dropdown-item">Battery Storage</a>
+                        <a href="testimonial.html" class="dropdown-item">Inverters</a>
                         
                     </div>
                 </div>
-                <a href="quote.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="quote.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -129,7 +125,6 @@
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-2 text-white animated slideInDown">Empowering the Future, One Solar Panel at a Time</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">At Green Line Energy, we harness the power of the sun to provide innovative solar energy solutions and advanced battery storage options. Say goodbye to high electricity bills and reduce your carbon footprint with our sustainable energy solutions.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +138,6 @@
                             <div class="col-10 col-lg-8">
                                 <h1 class="display-2 text-white animated slideInDown">Empowering the Future, One Solar Panel at a Time</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-3">At Green Line Energy, we harness the power of the sun to provide innovative solar energy solutions and advanced battery storage options. Say goodbye to high electricity bills and reduce your carbon footprint with our sustainable energy solutions.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -163,7 +157,7 @@
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-users text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">2082</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">591</h1>
                     </div>
                     <h5 class="mb-3">Happy Customers</h5>
                     <span>Our success Stories in Building Sustainable Futures!</span>
@@ -173,7 +167,7 @@
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-check text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">3216</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">620</h1>
                     </div>
                     <h5 class="mb-3">Project Done</h5>
                     <span>A Brighter Tomorrow Achieved Through Innovation, Expertise and Dedication</span>
@@ -184,7 +178,7 @@
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-award text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">3123</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">591</h1>
                     </div>
                     <h5 class="mb-3">Lives Changed</h5>
                     <span>Providing Premium Solutions to Change Lives</span>
@@ -195,7 +189,7 @@
                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                             <i class="fa fa-users-cog text-white"></i>
                         </div>
-                        <h1 class="mb-0" data-toggle="counter-up">200</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">50</h1>
                     </div>
                     
                     <h5 class="mb-3">Expert Workers</h5>
@@ -228,7 +222,6 @@
                         <p><i class="fa fa-check-circle text-primary me-3"></i>Mission-driven: Our mission is to create a positive impact on the environment and communities by providing cutting-edge renewable energy solutions.</p>
                         <p><i class="fa fa-check-circle text-primary me-3"></i>Comprehensive Renewable Solutions: We offer a wide range of eco-friendly options, including solar energy, wind power, battery storage, and advanced inverters, all tailored to meet the unique needs of our customers.</p>
                         <p><i class="fa fa-check-circle text-primary me-3"></i>Expert Team: Our team of seasoned professionals possesses the knowledge and expertise to design and implement efficient energy systems that reduce carbon footprints and save costs, driving us closer to a sustainable future.</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a>
                     </div>
                 </div>
             </div>
@@ -530,7 +523,7 @@
                         <h6 class="text-primary">Free Quote</h6>
                         <h1 class="mb-4">Get A Free Quote</h1>
                         <p class="mb-4 pb-2">Take the first step towards a cleaner, more efficient energy system for your home or business. Fill out the form below and receive a FREE, no-obligation quote today</p>
-                        <form action = "former.php" method = "post">
+                        <form onsubmit= "sendEmail(); reset(); return false;">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" name = "name" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
@@ -702,11 +695,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="index.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                  
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Project Gallery</h5>
@@ -733,7 +725,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Receive the latest updates when you sign up!.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -772,6 +764,31 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+
+            Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "support@green-lineenergy.com",
+    Password : "6D54058595A5D92FDDE31D1B5A9AF8C9F3E0",
+    To : 'support@green-lineenergy.com',
+    From : document.getElementById("email").value,
+    Subject : "New Quote Request",
+    Body :"Name: " + document.getElementById("name").value
+            + "<br> Email: " + document.getElementById("email").value
+            + "<br> Phone number: " + document.getElementById("phone").value
+            + "<br> Quote Relation: " + document.getElementById("option").value
+            + "<br> Message: " + document.getElementById("note").value
+
+
+
+}).then(
+  message => alert("Message Sent Succesfully")
+);
+            
+        }
+    </script>
 </body>
 
 </html>
